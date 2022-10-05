@@ -6,6 +6,13 @@ const chars = {
     "Tín" : '<char class="tin">Tín</char>',
     "Thầy" : '<char class="thay">Thầy</char>',
     "TCN" : '<char class="thay">TCN</char>',
+    "An" : '<char class="quan">An</char>',
+    "Ninh" : '<char class="hai">Ninh</char>',
+    "Đại" : '<char class="hung">Đại</char>',
+    "Đoàn" : '<char class="hoang">Đoàn</char>',
+    "Kết" : '<char class="tin">Kết</char>',
+    "Thắng" : '<char class="thay">Thắng</char>',
+    "Đức" : '<char class="thay">Đức</char>',
 }
 
 for(let char in chars){
