@@ -1,6 +1,4 @@
-// const anhDech = document.getElementById("anhDech");
-const hayDen = document.getElementById("hayDen");
-// const silent = document.getElementById("silentOpen");
+audioStartsAt("hayDen", 88);
 
 // anhDech.addEventListener("play", () => {
 //     setTimeout(() => {
@@ -15,14 +13,6 @@ hayDen.currentTime = 88;
 hayDen.addEventListener("pause", () => {
     hayDen.currentTime = 88;
 });
-const LaConGai = document.getElementById("LaConGai");
-
-LaConGai.currentTime = 68;
-LaConGai.addEventListener("pause", () => {
-    LaConGai.currentTime = 68;
-});
-
-const BiThuong = document.getElementById("BiThuong");
 
 BiThuong.currentTime = 1;
 BiThuong.addEventListener("pause", () => {
