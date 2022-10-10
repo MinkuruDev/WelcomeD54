@@ -1,39 +1,16 @@
 audioStartsAt("hayDen", 88);
 
-// anhDech.addEventListener("play", () => {
-//     setTimeout(() => {
-//         anhDech.currentTime = 0;
-//     }, 6500);
-//     setTimeout(() => {
-//         anhDech.currentTime = 0;
-//     }, 11000);
-// });
+audioStartsAt("BiThuong", 1);
 
-hayDen.currentTime = 88;
-hayDen.addEventListener("pause", () => {
-    hayDen.currentTime = 88;
-});
+audioStartsAt("MaiDetTiNi", 5.5);
 
-BiThuong.currentTime = 1;
-BiThuong.addEventListener("pause", () => {
-    BiThuong.currentTime = 1;
-});
+audioStartsAt("TuThoai", 53);
 
-const MaiDetTiNi = document.getElementById("MaiDetTiNi");
+audioStartsAt("Slap", 1);
 
-MaiDetTiNi.currentTime = 5;
-MaiDetTiNi.addEventListener("pause", () => {
-    MaiDetTiNi.currentTime = 5;
-});
+audioStartsAt("LaConGai", 68);
 
-const TuThoai = document.getElementById("TuThoai");
+audioStartsAt("3Sung", 3);
 
-TuThoai.currentTime = 53;
-TuThoai.addEventListener("pause", () => {
-    TuThoai.currentTime = 53;
-});
+audioStartsAt("DuocRoi", 1);
 
-Slap.currentTime = 1;
-Slap.addEventListener("pause", () => {
-    Slap.currentTime = 1;
-});

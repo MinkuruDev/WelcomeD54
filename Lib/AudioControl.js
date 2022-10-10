@@ -16,3 +16,7 @@ function audioStartsAt(audioID, seconds){
         audio.currentTime = seconds;
     });
 }
+
+function playAudio(audioID){
+    document.getElementById(audioID).play();
+}
