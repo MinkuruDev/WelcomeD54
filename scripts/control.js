@@ -2,9 +2,9 @@ audioStartsAt("hayDen", 88);
 tangDan("hayDen")
 
 audioStartsAt("BiThuong", 1);
-// pauseAfterSeconds("BiThuong",2,0.02,0.7);
+pauseAfterSeconds("BiThuong",2,0.02,0.5);
 
- audioStartsAt("MaiDetTiNi", 5.5);
+audioStartsAt("MaiDetTiNi", 5.5);
 
 // audioStartsAt("Slap", 1.1);
 
@@ -50,7 +50,7 @@ pauseAfterSeconds("NK1", 2 );
 
 pauseAfterSeconds("NK2", 2 );
 
-setVolume("TuThoai", 0.8)
+setVolume("TuThoai", 0.7)
 
 // pauseAfterSeconds("bigCity", 1.5 );
 
@@ -69,6 +69,9 @@ audioStartsAt("ChuyenCanh1", 5);
 
 pauseAfterSeconds("ChuyenCanh2",8);
 audioStartsAt("ChuyenCanh2", 5);
+
+pauseAfterSeconds("ChuyenCanh3",8);
+audioStartsAt("ChuyenCanh3", 5);
 
 // audioStartsAt("Fall", 15.3);
 
